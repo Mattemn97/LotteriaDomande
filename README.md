@@ -71,6 +71,3 @@ Avvia l'interfaccia grafica, mostra le domande e gestisce l'interazione con l'ut
 3. L'utente seleziona una risposta e conferma.
 4. Il punteggio viene aggiornato in base alla risposta.
 5. Alla fine, viene mostrato il punteggio totale.
-
-## 📜 Licenza
-Questo progetto è rilasciato sotto la licenza MIT
