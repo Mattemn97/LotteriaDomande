@@ -19,7 +19,7 @@ class QuizApp:
         self.var_risposta = tk.StringVar()
         self.bottoni_risposte = []
 
-        for _ in range(6):
+        for _ in range(4):
             btn = tk.Radiobutton(root, text="", variable=self.var_risposta, value="", font=("Arial", 10))
             btn.pack(anchor="w", padx=50)
             self.bottoni_risposte.append(btn)
