@@ -14,8 +14,7 @@ def leggi_domande(file_csv="domande.csv"):
                 "corretta": row["Risposta giusta"],
                 "errate": [
                     row["Risposta sbagliata 1"], row["Risposta sbagliata 2"],
-                    row["Risposta sbagliata 3"], row["Risposta sbagliata 4"],
-                    row["Risposta sbagliata 5"]
+                    row["Risposta sbagliata 3"]
                 ],
                 "peso": int(row["Peso domanda"])
             })
