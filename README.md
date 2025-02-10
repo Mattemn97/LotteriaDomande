@@ -34,9 +34,9 @@ python main.py
 Il file delle domande deve avere il seguente formato con `;` come delimitatore:
 
 ```csv
-Id Domanda;Domanda;Risposta giusta;Risposta sbagliata 1;Risposta sbagliata 2;Risposta sbagliata 3;Risposta sbagliata 4;Risposta sbagliata 5;Peso domanda
-1;Qual è la capitale d'Italia?;Roma;Milano;Napoli;Torino;Venezia;;2
-2;Chi ha scritto 'La Divina Commedia'?;Dante Alighieri;Petrarca;Boccaccio;Manzoni;Leopardi;;3
+Id Domanda;Domanda;Risposta giusta;Risposta sbagliata 1;Risposta sbagliata 2;Risposta sbagliata 3;Peso domanda
+1;Qual è la capitale d'Italia?;Roma;Milano;Napoli;Torino;2
+2;Chi ha scritto 'La Divina Commedia'?;Dante Alighieri;Petrarca;Boccaccio;Manzoni;3
 ```
 
 ## ⚙️ Configurazione (`config.ini`)
