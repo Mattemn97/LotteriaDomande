@@ -1,3 +1,11 @@
 Id Domanda;Domanda;Risposta giusta;Risposta sbagliata 1;Risposta sbagliata 2;Risposta sbagliata 3;Peso domanda
-1;Qual è la capitale d'Italia?;Roma;Milano;Napoli;Torino;1
-2;Chi ha scritto 'La Divina Commedia'?;Dante Alighieri;Petrarca;Boccaccio;Manzoni;1
+1;Chi ha vinto il campionato mondiale di Formula 1 nel 2021?;Max Verstappen;Lewis Hamilton;Sebastian Vettel;Charles Leclerc;1
+2;Quale scuderia ha il maggior numero di titoli costruttori in F1?;Ferrari;Mercedes;McLaren;Red Bull;1
+3;In quale anno si è corsa la prima gara di Formula 1?;1950;1946;1955;1960;1
+4;Chi detiene il record di pole position in F1?;Lewis Hamilton;Ayrton Senna;Michael Schumacher;Sebastian Vettel;1
+5;Su quale circuito si corre il Gran Premio di Monaco?;Monte Carlo;Monza;Silverstone;Spa-Francorchamps;1
+6;Qual è il pilota più giovane ad aver vinto un Gran Premio di F1?;Max Verstappen;Sebastian Vettel;Fernando Alonso;Charles Leclerc;1
+7;Qual è la nazionalità di Ayrton Senna?;Brasiliana;Italiana;Francese;Spagnola;1
+8;Quante ruote ha una monoposto di Formula 1?;4;6;3;5;1
+9;Quale scuderia ha sede a Maranello?;Ferrari;Alfa Romeo;Haas;Aston Martin;1
+10;Chi è stato il compagno di squadra di Lewis Hamilton alla Mercedes nel 2016?;Nico Rosberg;Valtteri Bottas;Jenson Button;George Russell;1
