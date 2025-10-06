@@ -1,6 +1,6 @@
 # Lotteria Domande
 
-Questo progetto fornisce un'applicazione GUI per rispondere a domande a scelta multipla lette da un file CSV. Le risposte vengono valutate in base a un sistema configurabile e il punteggio viene aggiornato dinamicamente.
+Questo progetto fornisce un'applicazione per rispondere a domande a scelta multipla lette da un file CSV. Le risposte vengono valutate in base a un sistema configurabile e il punteggio viene aggiornato dinamicamente.
 
 ## 📂 Struttura del Progetto
 ```
