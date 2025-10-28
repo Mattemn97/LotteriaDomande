@@ -1,0 +1,19 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.w3-purple {
+    background-color: #6a1b9a !important; /* Viola personalizzato */
+}
+
+button:hover, .w3-button:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+/* Evidenziazione della risposta selezionata */
+input[type="radio"]:checked + span,
+label:has(input[type="radio"]:checked) {
+    background-color: #6a1b9a !important;
+    color: white !important;
+}

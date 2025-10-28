@@ -1,0 +1,33 @@
+Codice;Id Domanda;Domanda;Risposta data;Corretta
+12345;3;In quale anno si è corsa la prima gara di Formula 1?;1950;SI
+12345;8;Quante ruote ha una monoposto di Formula 1?;4;SI
+12345;7;Qual è la nazionalità di Ayrton Senna?;Brasiliana;SI
+12345;10;Chi è stato il compagno di squadra di Lewis Hamilton alla Mercedes nel 2016?;Nico Rosberg;SI
+12345;9;Quale scuderia ha sede a Maranello?;Ferrari;SI
+12345;1;Chi ha vinto il campionato mondiale di Formula 1 nel 2021?;Max Verstappen;SI
+12345;6;Qual è il pilota più giovane ad aver vinto un Gran Premio di F1?;Max Verstappen;SI
+12345;5;Su quale circuito si corre il Gran Premio di Monaco?;Monte Carlo;SI
+12345;4;Chi detiene il record di pole position in F1?;Lewis Hamilton;SI
+12345;2;Quale scuderia ha il maggior numero di titoli costruttori in F1?;Ferrari;SI
+648736;9;Quale scuderia ha sede a Maranello?;Ferrari;SI
+648736;5;Su quale circuito si corre il Gran Premio di Monaco?;Monte Carlo;SI
+648736;7;Qual è la nazionalità di Ayrton Senna?;Brasiliana;SI
+648736;4;Chi detiene il record di pole position in F1?;Lewis Hamilton;SI
+648736;10;Chi è stato il compagno di squadra di Lewis Hamilton alla Mercedes nel 2016?;Nico Rosberg;SI
+648736;6;Qual è il pilota più giovane ad aver vinto un Gran Premio di F1?;Max Verstappen;SI
+648736;8;Quante ruote ha una monoposto di Formula 1?;4;SI
+648736;1;Chi ha vinto il campionato mondiale di Formula 1 nel 2021?;Max Verstappen;SI
+648736;3;In quale anno si è corsa la prima gara di Formula 1?;1950;SI
+648736;2;Quale scuderia ha il maggior numero di titoli costruttori in F1?;Ferrari;SI
+123456;5;Su quale circuito si corre il Gran Premio di Monaco?;Monte Carlo;SI;10
+123456;10;Chi è stato il compagno di squadra di Lewis Hamilton alla Mercedes nel 2016?;Nico Rosberg;SI;10
+16554;2;Quale scuderia ha il maggior numero di titoli costruttori in F1?;Ferrari;Sì;10
+16554;6;Qual è il pilota più giovane ad aver vinto un Gran Premio di F1?;Charles Leclerc;No;-5
+16554;8;Quante ruote ha una monoposto di Formula 1?;3;No;-5
+16554;7;Qual è la nazionalità di Ayrton Senna?;Francese;No;-5
+16554;1;Chi ha vinto il campionato mondiale di Formula 1 nel 2021?;Sebastian Vettel;No;-5
+16554;10;Chi è stato il compagno di squadra di Lewis Hamilton alla Mercedes nel 2016?;Nico Rosberg;Sì;10
+16554;9;Quale scuderia ha sede a Maranello?;Alfa Romeo;No;-5
+16554;4;Chi detiene il record di pole position in F1?;Ayrton Senna;No;-5
+16554;5;Su quale circuito si corre il Gran Premio di Monaco?;Monza;No;-5
+16554;3;In quale anno si è corsa la prima gara di Formula 1?;1960;No;-5

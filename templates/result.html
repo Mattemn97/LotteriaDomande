@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risultato</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-light-grey w3-center" style="height:100vh;display:flex;justify-content:center;align-items:center;">
+    <div class="w3-card-4 w3-white w3-padding-32 w3-round-large" style="width:400px;">
+        <h2 class="w3-text-{{ colore_primario }}">Risultati</h2>
+        {% if mostra_punteggio %}
+            <p><strong>Punteggio finale:</strong> {{ punteggio }}</p>
+        {% else %}
+            <p>Risposte inviate con successo!</p>
+        {% endif %}
+        <a href="{{ url_for('logout') }}" class="w3-button w3-{{ colore_primario }} w3-margin-top w3-round-large">Esci</a>
+    </div>
+</body>
+</html>
