@@ -35,8 +35,10 @@ def carica_domande():
     with open("domande.csv", newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter=";")
         for row in reader:
-            domande.append(row)
-    random.shuffle(domande)  # ordine casuale delle domande
+            # Pulisce il dizionario rimuovendo eventuali chiavi None prodotte da DictReader
+            row_pulita = {k: v for k, v in row.items() if k is not None}
+            domande.append(row_pulita)
+    random.shuffle(domande)
     return domande[:numero_domande]
 
 # === Rotte ===
