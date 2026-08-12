@@ -1,0 +1,135 @@
+/* 
+  Global Custom Style
+  Palette Pastello e Glassmorphism
+*/
+
+:root {
+  /* Soft Light Palette */
+  --bg-color: #f8f9fa;
+  --text-color: #495057;
+  --primary: #9bb7d4; /* Soft Blue */
+  --secondary: #c8b6e2; /* Soft Purple */
+  --accent: #f4c2c2; /* Soft Pink */
+  --success: #b5e48c; /* Soft Green */
+  --warning: #f8edeb; /* Soft Peach */
+  --danger: #ffb4a2; /* Soft Red */
+  
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+
+  --font-main: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+  --radius: 12px;
+  --transition: all 0.3s ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Soft Dark Palette */
+    --bg-color: #2b2d42;
+    --text-color: #edf2f4;
+    --primary: #6c8ea4; /* Muted Blue */
+    --secondary: #8c7aa9; /* Muted Purple */
+    --accent: #d4a3a3; /* Muted Pink */
+    
+    --glass-bg: rgba(43, 45, 66, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--glass-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  padding: 20px;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 500;
+  transition: var(--transition);
+  font-family: var(--font-main);
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+button.secondary { background-color: var(--secondary); }
+button.accent { background-color: var(--accent); }
+button.danger { background-color: var(--danger); }
+
+/* Layout Utilities (Flexbox) */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  transition: var(--transition);
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(155, 183, 212, 0.3);
+}
